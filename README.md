@@ -59,4 +59,12 @@
 > 
 > ![image alt ><](/Images/sakashimas_example_sale.png)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The system worked! I was generating income by just patching holes in the market on this small selling platform - imagine the opportunity if applied to every company! I had been running my business for a while, but this was the first time that I was able to source inventory in a dependably profitable way. Of course there were limitations - due to the small customer base of the platform, I was only able to buy a few hundred dollars of inventory from it every week - there simply weren't enough people to buy more at sustainable prices. So even if it wouldn't carry my business, it was still proof of concept.
+
+# The Future
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;It may seem strange to end the project here, because after all it isn't being worked on or used anymore. It had a lot of potential, and I was excited to put it to use, except for one issue - the Pokemon market was beginning to explode in a historic way. It was clear that the Pokemon Trading Card Game would be a far more profitable business platform, at least in the short term, so I pivoted into that market. I was very disappointed that I wasn't able to continue applying this system to the Magic: the Gathering market, but it turned out to be very good that I changed markets, as Pokemon products across the board skyrocketed for the next 5 months. The market boom was due to COVID supply restrictions, an increase in demand, and an overall market correction, so as someone with presence in the industry already, making large profit margins didn't require any data analysis at all.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Therefore, mtg-goose was pushed to the wayside in favor of easier money, eventually to be discontinued completely. The profitability of Pokemon is still higher than that of MTG at the time of writing (June 2021), but besides that, the success of Pokemon brought my attention to the issue of scaling. I couldn't continue to grow my business at the same rate while also maintaining my studies, so I had to abandon selling single cards. My business is still alive, focusing on sealed product because of its higher value density for storage space and simpler inventory tracking, and I am moving back into the data analysis world with my [current project](https://coltonglasgow13.github.io/goose-stock/), which focuses on stock prices.
+
+# Conclusion
