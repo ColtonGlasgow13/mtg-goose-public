@@ -38,3 +38,25 @@
 > Data from multiple sources collected over months for every card in the _Ice Age_ set, which released in 1996.
 > 
 > ![image alt ><](/Images/IceAgeCardValueOverTime.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;This is useful, but a far more impactful application of the data was arbitrage. The collectible card market isn't unified at all, which means that while establishing a strong foundation of data is difficult, once you have that foundation you have information that the large companies in the market don't have. Retailers don't communicate, at least not nearly often enough, they prefer to look at their self-contained ecosystem if they want to determine their card prices, if they do any kind of analysis at all. Because of that, if one company is running low on a card and wants to buy it, they may post a price that is higher than the price another company is selling at, without ever realizing. This market is full of inefficiencies like that, which are completely unheard of in the stock market or other highly reactive and centralized markets.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Therefore, the most pressing use for this data was arbitrage, which are essentially opportunities to make risk-free money simply because of a lack of communication in the market. Once I could see every vendor's data, I actually knew more than even the largest companies did about other companies' needs in the market, and bridging those gaps provides returns that require no prediction or reasoning - after all, it isn't that hard to figure out "I'll buy 30 of these for $15 each from this company and ship them to another company for $16 each." The first place I looked to employ this strategy was a platform called [Cardsphere](https://www.cardsphere.com/).
+
+# Cardsphere Arbitrage
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cardsphere is a platform for buying and selling cards, but it is unique in that the sales model is flipped. Rather than sellers posting their cards and prices, buyers post a list of cards they want and the prices they will pay, and sellers can then choose whether or not to sell at those prices. It's a bit like everyone gets to post their own buylist, which is something that is generally restricted to companies that have large customer bases. So naturally, now that I knew exactly what I could sell every card for, I could generate my "free money" buylist.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Using the price data scraped daily from TCGPlayer and buylists, I could see what I could get immediately for every card from either the market or from retail companies, and could automate the creation of my own buylist based on that. I simply took the highest price for each card (with a simple risk-reducing algorithm to consider shipping time), subtracted an acceptable margin, and uploaded the massive list to Cardsphere daily.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Naturally, these prices were typically lower than market, so people weren't willing to fill most of these buy requests. But out of 40,000+ cards, there were always bound to be outliers that a company was buying at a high price, or that were undervalued on Cardsphere, and those are the cards that people took my offers on. 
+
+> An example of the system in action. Here you can see a particular card purchased on the platform for a price that my algorithm determined was profitable.
+> 
+> ![image alt ><](/Images/Sakashimas_example_cardsphere.png)
+>
+> And here, you can see that same card sold on TCGPlayer for a profit just days later.
+> 
+> ![image alt ><](/Images/sakashimas_example_sale.png)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
